@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="1000.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="18.0" layoutY="20.0" mnemonicParsing="false" onAction="#toRemove" text="удалить" />
+      <Label layoutX="125.0" layoutY="24.0" text="Бренд:" />
+      <Label layoutX="236.0" layoutY="24.0" text="Цена:" />
+      <Label fx:id="cloneMark" layoutX="172.0" layoutY="24.0" text="Label" />
+      <Label fx:id="cloneCost" layoutX="286.0" layoutY="24.0" text="Label" />
+      <Label fx:id="cloneType" layoutX="418.0" layoutY="24.0" text="Label" />
+
+
+
+      <Label layoutX="337.0" layoutY="24.0" text="Тип часов:" />
+      <Label layoutX="469.0" layoutY="24.0" text="Текущее время" />
+
+      <Label fx:id="times" layoutX="579.0" layoutY="24.0" prefHeight="17.0" prefWidth="84.0" text="Label" />
+      <Button layoutX="703.0" layoutY="20.0" mnemonicParsing="false" onAction="#toSET" text="Задать время" />
+      <Button layoutX="839.0" layoutY="20.0" mnemonicParsing="false" onAction="#toMOVE" text="Перевести время" />
+      <Label fx:id="ID" layoutX="96.0" layoutY="24.0" text="Label" />
+   </children>
+</Pane>
